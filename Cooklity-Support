@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Supporto – Cooklity / Scala Ricette</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: #f5f5f7;
+        color: #1d1d1f;
+      }
+      .container {
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 32px 16px 48px;
+      }
+      h1 {
+        font-size: 26px;
+        margin-bottom: 8px;
+      }
+      h2 {
+        font-size: 20px;
+        margin-top: 24px;
+        margin-bottom: 8px;
+      }
+      p {
+        line-height: 1.5;
+        margin-bottom: 8px;
+      }
+      .card {
+        background: #ffffff;
+        border-radius: 16px;
+        padding: 20px 18px;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+      }
+      .badge {
+        display: inline-block;
+        padding: 4px 10px;
+        border-radius: 999px;
+        background: #f2f2f7;
+        font-size: 12px;
+        color: #555;
+        margin-bottom: 10px;
+      }
+      a {
+        color: #0070c9;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      ul {
+        padding-left: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="badge">Supporto app</div>
+        <h1>Cooklity / Scala Ricette</h1>
+        <p>
+          Questa pagina è il punto di contatto ufficiale per il supporto relativo
+          all'app <strong>Cooklity / Scala Ricette</strong> disponibile su App Store.
+        </p>
+
+        <h2>Contatta il supporto</h2>
+        <p>
+          Per assistenza tecnica, problemi con gli acquisti in‑app o suggerimenti,
+          scrivi a:
+        </p>
+        <p>
+          <strong>Email supporto:</strong>
+          <a href="mailto:roby.maricchiolo@gmail.com">
+            roby.maricchiolo@gmail.com
+          </a>
+        </p>
+        <p>
+          Ti risponderemo generalmente entro 48 ore lavorative.
+        </p>
+
+        <h2>Informazioni sull’app</h2>
+        <ul>
+          <li><strong>Nome app:</strong> Cooklity / Scala Ricette</li>
+          <li><strong>Piattaforma:</strong> iOS / iPadOS</li>
+          <li><strong>Funzioni principali:</strong> ricette AI, conversione porzioni, lista della spesa, archivio ricette</li>
+        </ul>
+
+        <h2>Privacy e termini</h2>
+        <p>
+          L'informativa privacy completa è disponibile all'interno dell'app e alla
+          pagina:
+          <a href="https://robymac71.github.io/privacy.html" target="_blank" rel="noopener noreferrer">
+            privacy policy
+          </a>.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
