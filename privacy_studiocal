@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - StudioCal</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; padding: 30px; max-width: 800px; margin: auto; color: #333; }
+        h1 { color: #000; border-bottom: 2px solid #eee; padding-bottom: 10px; }
+        h2 { color: #444; margin-top: 25px; }
+        p { margin-bottom: 15px; }
+        ul { margin-bottom: 15px; padding-left: 1.2em; }
+        li { margin-bottom: 8px; }
+        .footer { font-size: 0.9em; color: #777; margin-top: 40px; border-top: 1px solid #eee; padding-top: 10px; }
+        .highlight { background-color: #f9f9f9; padding: 15px; border-left: 4px solid #007AFF; margin: 20px 0; }
+        a { color: #007AFF; }
+    </style>
+</head>
+<body>
+    <h1>Privacy Policy - StudioCal</h1>
+
+    <p>L’app <strong>StudioCal</strong> è un’agenda per studio professionale (calendario visite, anagrafica pazienti, note, foto e import/export). Questa informativa descrive quali dati possono essere trattati, dove restano e come interagiamo con servizi di terze parti (Apple, Google pubblicità). Non gestiamo un nostro database centrale per i contenuti che inserisci nell’app: i dati risiedono sul dispositivo e, se attivi la sincronizzazione, nei servizi Apple collegati al tuo account.</p>
+
+    <h2>1. Dati che tratti con l’app</h2>
+    <p>Puoi inserire e conservare in StudioCal, tra l’altro:</p>
+    <ul>
+        <li>dati anagrafici e di contatto dei pazienti (nome, cognome, telefono, email, note);</li>
+        <li>appuntamenti, visite, titoli e note degli eventi;</li>
+        <li>immagini (es. foto cliniche o radiografie) dalla fotocamera o dalla libreria foto;</li>
+        <li>file in formato <strong>.ics</strong> che importi o che esporti dall’app;</li>
+        <li>eventuali suggerimenti dalla <strong>Rubrica</strong> di sistema, solo se usi quella funzione e concedi l’autorizzazione.</li>
+    </ul>
+    <p>Questi contenuti sono trattati per farti usare l’app secondo le funzioni che scegli (agenda, pazienti, promemoria, condivisione file, ecc.).</p>
+
+    <h2>2. Dove sono i dati (dispositivo e iCloud)</h2>
+    <p>I dati di StudioCal sono salvati <strong>localmente</strong> sul tuo iPhone, iPad o Mac. Se sul dispositivo è attivo <strong>iCloud</strong> con lo stesso ID Apple e l’app può usare i servizi Apple previsti, le informazioni possono essere <strong>sincronizzate tramite CloudKit</strong> tra i tuoi dispositivi, secondo le regole e l’infrastruttura di <strong>Apple</strong>. Noi non ospitiamo un server proprietario su cui copiare le tue schede paziente o il calendario.</p>
+    <p>Per informazioni su come Apple tratta i dati iCloud/CloudKit, puoi consultare le informative di Apple applicabili al tuo account.</p>
+
+    <h2>3. Permessi di sistema (Calendario, Contatti, Fotocamera, Foto)</h2>
+    <p>Alcune funzioni richiedono il consenso esplicito tramite le finestre di sistema:</p>
+    <ul>
+        <li><strong>Calendario iOS:</strong> se usi l’import dagli eventi del calendario di sistema, l’app accede solo nei limiti che autorizzi.</li>
+        <li><strong>Contatti:</strong> per suggerire nome o contatti mentre compili, l’app legge i dati che iOS consente.</li>
+        <li><strong>Fotocamera e libreria foto:</strong> per allegare immagini a pazienti o visite.</li>
+    </ul>
+    <p>Puoi revocare i permessi dalle Impostazioni del dispositivo in qualsiasi momento; alcune funzioni potrebbero non essere più disponibili.</p>
+
+    <h2>4. Pubblicità e Google AdMob</h2>
+    <div class="highlight">
+        <p>Nella <strong>versione gratuita</strong>, StudioCal può mostrare annunci tramite il servizio <strong>Google AdMob</strong>.</p>
+        <p><strong>Dati trattati da AdMob:</strong> Google e i partner pubblicitari possono usare identificatori del dispositivo (come l’ID pubblicitario), informazioni sull’utilizzo dell’app e, se autorizzi il tracciamento tramite il messaggio di sistema, dati per annunci personalizzati o per misurare le prestazioni.</p>
+        <p><strong>Controllo dell’utente:</strong> su iOS puoi gestire il tracciamento con <strong>App Tracking Transparency</strong> e dalle impostazioni di privacy del dispositivo. Gli utenti con <strong>abbonamento Pro</strong> non vedono la striscia pubblicitaria nell’app su iPhone/iPad.</p>
+        <p>Per maggiori informazioni sul trattamento dei dati da parte di Google: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">https://policies.google.com/privacy</a>.</p>
+    </div>
+
+    <h2>5. Pagamenti e abbonamenti (StudioCal Pro)</h2>
+    <p>Gli acquisti in-app e gli abbonamenti sono gestiti interamente da <strong>Apple (App Store)</strong> tramite il tuo ID Apple. <strong>Non abbiamo accesso</strong> ai numeri di carta o ai dettagli di pagamento: Apple elabora la transazione secondo le sue condizioni.</p>
+
+    <h2>6. Condivisione e export</h2>
+    <p>Se usi le funzioni di <strong>condivisione</strong> (es. invio di file .ics, condivisione del sistema), i dati lasciano l’app secondo il canale che scegli (Mail, Messaggi, altre app). Quella condivisione è sotto il tuo controllo e non è “invio automatico” a un nostro server.</p>
+
+    <h2>7. Diritti dell’utente (incluso GDPR)</h2>
+    <p>In base alla normativa applicabile (incluso il Regolamento UE 2016/679), puoi esercitare diritti come accesso, rettifica, cancellazione, limitazione, portabilità e opposizione, nei limiti previsti dalla legge. Poiché i dati principali sono sul dispositivo e, se attivo, nel tuo spazio iCloud legato ad Apple, puoi in molti casi:</p>
+    <ul>
+        <li>modificare o eliminare informazioni direttamente in app;</li>
+        <li>eliminare l’app o i dati dell’app dalle impostazioni di sistema;</li>
+        <li>contattarci per richieste relative alla privacy (vedi sotto).</li>
+    </ul>
+    <p>Se ritieni che il trattamento violi la normativa, puoi proporre reclamo all’autorità di protezione dati competente (in Italia: Garante per la protezione dei dati personali).</p>
+
+    <h2>8. Modifiche a questa informativa</h2>
+    <p>Possiamo aggiornare questa privacy policy. La data dell’ultimo aggiornamento è indicata in calce. Ti invitiamo a consultarla periodicamente, in particolare dopo aggiornamenti rilevanti dell’app.</p>
+
+    <div class="footer">
+        <p>Ultimo aggiornamento: 22 marzo 2026</p>
+        <p>App: StudioCal · Sviluppatore: Roberto Maricchiolo</p>
+        <p>Per richieste sulla privacy: sostituisci con la tua email di contatto pubblicata su App Store Connect.</p>
+    </div>
+</body>
+</html>
