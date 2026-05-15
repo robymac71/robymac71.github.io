@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informativa sulla privacy · ToyTell</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; padding: 30px; max-width: 800px; margin: auto; color: #333; }
+        h1 { color: #1a0b2e; border-bottom: 2px solid #eee; padding-bottom: 10px; }
+        h2 { color: #4A148C; margin-top: 25px; }
+        p { margin-bottom: 15px; }
+        ul { margin-bottom: 15px; padding-left: 1.2em; }
+        li { margin-bottom: 8px; }
+        .footer { font-size: 0.9em; color: #777; margin-top: 40px; border-top: 1px solid #eee; padding-top: 10px; }
+        .highlight { background-color: #faf7ff; padding: 15px; border-left: 4px solid #4A148C; margin: 20px 0; }
+        a { color: #4A148C; }
+        strong { color: #222; }
+    </style>
+</head>
+<body>
+    <h1>Informativa sulla privacy · ToyTell</h1>
+
+    <p>
+        <strong>ToyTell</strong> è un’applicazione pensata per la famiglia: consente ai genitori (o tutori) di aiutare i bambini a
+        inventare fiabe a partire da un desiderio scritto e, quando lo consentono le funzioni attive sul dispositivo, da foto o scansioni
+        (ad esempio disegni, oggetti o giochi). L’uso consapevole dei servizi esterni (in particolare <strong>OpenAI</strong>) avviene
+        tramite una <strong>chiave API</strong> che i genitori configurano sull’app, come indicato nell’app stessa.
+    </p>
+
+    <h2>1. Titolare del trattamento</h2>
+    <p>
+        <strong>Editore / sviluppatore:</strong> Roberto Maricchiolo.<br>
+        <strong>Contatti privacy:</strong> <a href="mailto:rmlabs.dev@gmail.com">rmlabs.dev@gmail.com</a>
+    </p>
+    <p>
+        ToyTell non richiede un account “ToyTell” separato per le funzioni base: molte informazioni restano sul dispositivo.
+        Per l’acquisto facoltativo <strong>ToyTell Deluxe</strong>, il pagamento è gestito da <strong>Apple</strong> e/o
+        <strong>Google</strong> con l’account store del tutore.
+    </p>
+
+    <h2>2. Dati e contenuti che possono essere trattati con l’app</h2>
+    <p>A titolo esemplificativo, l’app può coinvolgere:</p>
+    <ul>
+        <li><strong>Testo</strong>: desiderio per la fiaba, titoli o note opzionali, testi delle fiabe generate o salvate;</li>
+        <li><strong>Immagini</strong>: foto scattate con la fotocamera o scelte dalla galleria (disegni, oggetti, ecc.), usate come spunto visivo quando usi la generazione da immagini;</li>
+        <li><strong>Registrazione vocale dei genitori</strong> (se abilitata e dove previsto dalla versione dell’app): audio della lettura per associarlo alla fiaba salvata in locale;</li>
+        <li><strong>Preferenze e stato dell’app</strong> salvati sul dispositivo (es. impostazioni di lettura, filtri biblioteca, stato acquisto Deluxe lato device, chiave OpenAI conservata come da indicazioni dell’app);</li>
+        <li><strong>Archivio fiabe</strong>: testi, metadati e file collegati (es. miniature, audio esportato) conservati sul dispositivo.</li>
+    </ul>
+    <p>
+        Finalità: permettere la creazione, la lettura, il salvataggio e la riproduzione delle fiabe secondo le funzioni che scegli di usare,
+        sempre con coinvolgimento del genitore/tutore dove l’app è pensata per i più piccoli.
+    </p>
+
+    <h2>3. Dove restano i dati (principalmente sul dispositivo)</h2>
+    <p>
+        Le fiabe salvate nella <strong>biblioteca</strong>, le immagini caricate per la sessione di creazione e la maggior parte delle preferenze
+        sono memorizzati <strong>localmente</strong> sul tuo smartphone o tablet (<strong>iOS</strong> o <strong>Android</strong>).
+        Non operiamo un servizio cloud proprietario ToyTell che archivi centralmente il testo delle tue fiabe o le tue foto:
+        ciò che resta sul dispositivo dipende da come usi l’app e da backup/sincronizzazioni eventualmente gestiti dal sistema operativo o
+        dai tuoi strumenti (fuori dal controllo diretto dell’app, salvo diversa integrazione futura esplicitamente indicata).
+    </p>
+
+    <h2>4. OpenAI (servizio di terze parti per intelligenza artificiale)</h2>
+    <div class="highlight">
+        <p>
+            Quando configuri una <strong>chiave API OpenAI</strong> valida, parti del contenuto (testo delle richieste, testo delle fiabe,
+            eventuali immagini inviate ai modelli che supportano la visione, richieste per sintesi vocale avanzata o per illustrazioni, ecc.)
+            possono essere <strong>trasferiti ai server OpenAI</strong> per elaborare la richiesta e restituire il risultato nell’app.
+        </p>
+        <p>
+            Il rapporto contrattuale e le pratiche di trattamento dei dati riguardo a quei contenuti sono regolate da
+            <strong>OpenAI</strong> secondo la propria documentazione e condizioni applicabili.
+            Ti invitiamo a leggere l’informativa OpenAI aggiornata:
+            <a href="https://openai.com/policies/privacy-policy" target="_blank" rel="noopener noreferrer">https://openai.com/policies/privacy-policy</a>.
+        </p>
+        <p>
+            ToyTell non sostituisce OpenAI nella gestione tecnica del trattamento sui loro sistemi; l’uso della chiave è sotto la
+            responsabilità del titolare dell’account OpenAI che la inserisce (di norma il genitore/tutore).
+        </p>
+    </div>
+
+    <h2>5. Permessi di sistema (fotocamera, galleria foto, microfono)</h2>
+    <p>Alcune funzioni richiedono il consenso tramite le finestre del sistema operativo:</p>
+    <ul>
+        <li><strong>Fotocamera e libreria foto</strong>: per acquisire o scegliere immagini da usare come spunto per la fiaba;</li>
+        <li><strong>Microfono</strong>: solo se usi la registrazione della lettura da parte del genitore (dove la funzione è disponibile), per catturare l’audio che poi puoi associare alla fiaba in archivio.</li>
+    </ul>
+    <p>
+        Puoi revocare i permessi dalle impostazioni del dispositivo in qualsiasi momento; alcune funzioni potrebbero non essere più disponibili.
+    </p>
+
+    <h2>6. Acquisti in-app (ToyTell Deluxe)</h2>
+    <p>
+        Gli acquisti in-app opzionali sono gestiti interamente da <strong>Apple (App Store)</strong> e/o <strong>Google Play</strong>.
+        <strong>Non abbiamo accesso</strong> ai numeri di carta o ai dettagli di pagamento: la transazione è elaborata dallo store secondo le
+        condizioni del relativo fornitore e del Paese del tuo account.
+    </p>
+
+    <h2>7. Pubblicità e strumenti di analisi</h2>
+    <p>
+        Nella versione corrente di ToyTell <strong>non integriamo kit pubblicitari</strong> (come reti di annunci in-app) né servizi di
+        analytics di terze parti per profilare gli utenti. Se in futuro venissero introdotti, questa informativa sarà aggiornata in modo
+        esplicito prima dell’attivazione.
+    </p>
+
+    <h2>8. Condivisione da parte dell’utente</h2>
+    <p>
+        Se usi funzioni di <strong>condivisione</strong> del sistema (es. menu “Condividi” offerto da iOS/Android o da altre app), i contenuti
+        possono essere inviati al canale che scegli (messaggi, mail, cloud di terzi, ecc.). Quella condivisione è sotto il tuo controllo e non
+        costituisce un invio automatico a un server ToyTell.
+    </p>
+
+    <h2>9. Diritti degli interessati (incluso GDPR)</h2>
+    <p>
+        In base alla normativa applicabile (incluso il Regolamento UE 2016/679), puoi esercitare diritti come accesso, rettifica,
+        cancellazione, limitazione, portabilità e opposizione, nei limiti previsti dalla legge. Poiché gran parte dei dati è sul dispositivo,
+        spesso potrai:
+    </p>
+    <ul>
+        <li>modificare o eliminare contenuti direttamente in app (es. fiabe in biblioteca);</li>
+        <li>eliminare i dati dell’app dalle impostazioni di sistema o disinstallare l’app;</li>
+        <li>contattarci per richieste relative alla privacy all’indirizzo indicato sopra.</li>
+    </ul>
+    <p>
+        Per trattamenti che avvengono presso OpenAI sulla base della tua chiave API, dovrai anche fare riferimento alle procedure di OpenAI
+        quando applicabile. Se ritieni che il trattamento violi la normativa, puoi proporre reclamo all’autorità competente (in Italia:
+        Garante per la protezione dei dati personali — <a href="https://www.garanteprivacy.it" target="_blank" rel="noopener noreferrer">www.garanteprivacy.it</a>).
+    </p>
+
+    <h2>10. Modifiche a questa informativa</h2>
+    <p>
+        Possiamo aggiornare questa informativa. La data dell’ultimo aggiornamento è indicata in calce.
+        Ti invitiamo a consultarla periodicamente, in particolare dopo aggiornamenti rilevanti dell’app.
+    </p>
+
+    <div class="footer">
+        <p>Ultimo aggiornamento: 12 maggio 2026</p>
+        <p><strong>ToyTell</strong> · Sviluppatore: Roberto Maricchiolo</p>
+        <p>Contatti privacy: <a href="mailto:rmlabs.dev@gmail.com">rmlabs.dev@gmail.com</a></p>
+    </div>
+</body>
+</html>
