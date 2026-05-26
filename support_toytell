@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assistenza · ToyTell</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; padding: 30px; max-width: 800px; margin: auto; color: #333; }
+        h1 { color: #1a0b2e; border-bottom: 2px solid #eee; padding-bottom: 10px; }
+        h2 { color: #4A148C; margin-top: 25px; }
+        p { margin-bottom: 15px; }
+        ul { margin-bottom: 15px; padding-left: 1.2em; }
+        li { margin-bottom: 8px; }
+        .footer { font-size: 0.9em; color: #777; margin-top: 40px; border-top: 1px solid #eee; padding-top: 10px; }
+        .highlight { background-color: #faf7ff; padding: 15px; border-left: 4px solid #4A148C; margin: 20px 0; }
+        a { color: #4A148C; }
+        strong { color: #222; }
+    </style>
+</head>
+<body>
+    <h1>Assistenza · ToyTell</h1>
+
+    <p>
+        <strong>ToyTell</strong> aiuta genitori e tutori a inventare fiabe in italiano insieme ai bambini.
+        Su questa pagina trovi come contattarci e le risposte ai problemi più comuni.
+    </p>
+
+    <div class="highlight">
+        <p>
+            <strong>Contatto assistenza</strong><br>
+            Scrivici a <a href="mailto:rmlabs.dev@gmail.com">rmlabs.dev@gmail.com</a>.<br>
+            Indica dispositivo (iPhone/iPad), versione di ToyTell e, se possibile, uno screenshot.
+            Rispondiamo appena possibile nei giorni lavorativi.
+        </p>
+    </div>
+
+    <h2>Informazioni utili</h2>
+    <ul>
+        <li><strong>Sviluppatore:</strong> Roberto Maricchiolo</li>
+        <li><strong>App:</strong> ToyTell (iOS · App Store)</li>
+        <li><strong>Età consigliata:</strong> pensata per famiglie con bambini circa 4–10 anni, con adulto vicino</li>
+    </ul>
+
+    <h2>Domande frequenti</h2>
+
+    <h2 style="font-size: 1.1em; margin-top: 18px;">L’app dice che serve la chiave API di OpenAI</h2>
+    <p>
+        Per generare fiabe e alcune funzioni Deluxe serve una <strong>chiave API OpenAI</strong> configurata come spiegato
+        nella build dell’app (file <code>secrets.json</code> per chi sviluppa, o istruzioni fornite con la versione che usi).
+        Senza chiave valida puoi comunque esplorare l’interfaccia, ma la creazione magica non parte.
+    </p>
+    <p>
+        Controlla su <a href="https://platform.openai.com" target="_blank" rel="noopener noreferrer">platform.openai.com</a>
+        che la chiave sia attiva e con credito sufficiente.
+    </p>
+
+    <h2 style="font-size: 1.1em; margin-top: 18px;">Ho acquistato ToyTell Deluxe ma non si sblocca</h2>
+    <p>
+        L’acquisto è gestito da <strong>Apple (App Store)</strong>. Prova nell’app:
+        <strong>Info per genitori · Acquista</strong> → <strong>Ho già acquistato · Ripristina</strong>.
+    </p>
+    <p>
+        Verifica di essere con lo stesso <strong>Apple ID</strong> usato per l’acquisto.
+        Per rimborsi o problemi di pagamento usa anche
+        <a href="https://reportaproblem.apple.com" target="_blank" rel="noopener noreferrer">reportaproblem.apple.com</a>.
+    </p>
+
+    <h2 style="font-size: 1.1em; margin-top: 18px;">Voce naturale lenta o assente</h2>
+    <p>
+        La voce naturale (Deluxe) può richiedere tempo e una buona connessione Internet.
+        Se hai già ascoltato la fiaba, <strong>salvala in biblioteca</strong>: la narrazione può restare sul telefono
+        e non serve richiederla di nuovo al server.
+    </p>
+
+    <h2 style="font-size: 1.1em; margin-top: 18px;">Fotocamera, galleria o microfono</h2>
+    <p>
+        I permessi si gestono da <strong>Impostazioni</strong> del dispositivo → <strong>ToyTell</strong>.
+        Il microfono serve solo per registrare la voce del genitore (Deluxe), non per ascoltare il bambino in modo nascosto.
+    </p>
+
+    <h2 style="font-size: 1.1em; margin-top: 18px;">Dove sono le mie fiabe?</h2>
+    <p>
+        Le fiabe salvate stanno nel <strong>libro delle fiabe</strong> (biblioteca) sull’app, sul dispositivo.
+        Se disinstalli l’app, i contenuti locali possono essere persi salvo backup di sistema.
+    </p>
+
+    <h2 style="font-size: 1.1em; margin-top: 18px;">Privacy e dati dei bambini</h2>
+    <p>
+        Leggi l’informativa completa:
+        <a href="https://robymac71.github.io/privacy_toytell.html">Informativa sulla privacy · ToyTell</a>.
+        Per richieste privacy usa <a href="mailto:rmlabs.dev@gmail.com">rmlabs.dev@gmail.com</a>.
+    </p>
+
+    <h2>Documenti legali</h2>
+    <ul>
+        <li>
+            <a href="https://robymac71.github.io/privacy_toytell.html">Informativa sulla privacy</a>
+        </li>
+        <li>
+            Licenza (EULA) standard Apple per app su App Store:
+            <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener noreferrer">EULA Apple</a>
+        </li>
+    </ul>
+
+    <div class="footer">
+        <p>Ultimo aggiornamento: 26 maggio 2026</p>
+        <p><strong>ToyTell</strong> · Sviluppatore: Roberto Maricchiolo</p>
+        <p>Assistenza: <a href="mailto:rmlabs.dev@gmail.com">rmlabs.dev@gmail.com</a></p>
+    </div>
+</body>
+</html>
