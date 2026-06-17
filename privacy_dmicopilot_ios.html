@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- DMi Copilot · privacy iOS · file ufficiale: privacy-ios.html -->
 <html lang="it">
 <head>
     <meta charset="UTF-8">
@@ -26,8 +27,8 @@
     <p>
         <strong>DMi Copilot</strong> è un’applicazione per <strong>pianificare viaggi</strong> e ricevere
         <strong>accompagnamento alla guida</strong> (suggerimenti EV, HEV, SAVE tratto per tratto) pensata per
-        veicoli <strong>BYD Atto 2 DM-i</strong>. L’app è destinata a <strong>utenti di almeno 13 anni</strong>.
-        Se hai meno di 13 anni, non utilizzare DMi Copilot.
+        veicoli <strong>BYD DM-i</strong> (es. Atto 2, Seal U, Seal 6). L’app è destinata a
+        <strong>utenti di almeno 13 anni</strong>. Se hai meno di 13 anni, non utilizzare DMi Copilot.
     </p>
     <p>
         DMi Copilot è un progetto <strong>indipendente</strong>: non è affiliata, sponsorizzata né approvata da
@@ -41,9 +42,14 @@
         <strong>Contatti privacy:</strong> <a href="mailto:rmlabs.dev@gmail.com">rmlabs.dev@gmail.com</a>
     </p>
     <p>
-        DMi Copilot <strong>non richiede un account</strong> dedicato: i dati di viaggio e le preferenze restano
-        principalmente sul dispositivo. L’eventuale download o aggiornamento dell’app è gestito da
+        DMi Copilot <strong>non richiede un account dedicato</strong> per funzionare: i dati di viaggio e le preferenze
+        restano principalmente sul dispositivo. L’eventuale download o aggiornamento dell’app è gestito da
         <strong>Apple (App Store)</strong> tramite l’account Apple collegato al dispositivo.
+    </p>
+    <p>
+        In modo <strong>facoltativo</strong> puoi collegare le credenziali dell’<strong>app BYD ufficiale</strong>
+        per leggere batteria, benzina e alcune informazioni del veicolo dal cloud BYD. Questo collegamento non crea
+        un account DMi Copilot: è solo un’integrazione opzionale con il servizio BYD.
     </p>
 
     <h2>2. Dati e contenuti trattati</h2>
@@ -51,7 +57,7 @@
     <ul>
         <li><strong>Indirizzi e luoghi</strong>: partenza, destinazione, indirizzo «casa», destinazioni recenti;</li>
         <li><strong>Posizione GPS</strong>: coordinate del dispositivo per impostare la partenza, calcolare percorsi e accompagnarti durante il viaggio (Copilota);</li>
-        <li><strong>Dati del veicolo</strong>: variante Active/Boost, livello batteria, carburante, preferenze EV/HEV/SAVE inserite da te;</li>
+        <li><strong>Dati del veicolo</strong>: variante e modello selezionati o riconosciuti, livello batteria, carburante, preferenze EV/HEV/SAVE inserite da te o aggiornate dal cloud BYD (se collegato);</li>
         <li><strong>Piani di viaggio</strong>: distanze, segmenti consigliati, stime di consumo, strategie di andata e ritorno;</li>
         <li><strong>Cronologia viaggi</strong> (fino a 30 viaggi recenti): origine, destinazione, SOC inseriti o confermati, carburante stimato o reale;</li>
         <li><strong>Preferenze</strong>: tipo di viaggio predefinito, strategia di rientro, velocità media, calibrazione locale per migliorare le stime;</li>
@@ -63,22 +69,53 @@
         dopo un viaggio. <strong>Non vendiamo</strong> i dati personali degli utenti a terzi per pubblicità comportamentale.
     </p>
 
-    <h2>3. Dove restano i dati</h2>
+    <h2>3. Collegamento opzionale all’account BYD</h2>
+    <div class="highlight">
+        <p>
+            Se scegli di usare la funzione <strong>«Collega account BYD»</strong> o <strong>«Aggiorna da BYD»</strong>,
+            l’app utilizza le <strong>stesse credenziali</strong> (email e password) dell’app BYD per autenticarsi
+            presso i <strong>server cloud BYD</strong> (es. infrastruttura europea BYD/DiLink).
+            L’integrazione si basa su un’API <strong>non ufficiale</strong>, derivata dal progetto open source
+            BydClient (licenza MIT).
+        </p>
+        <p>In questo caso possono essere trattati:</p>
+        <ul>
+            <li><strong>Email e password BYD</strong>: inserite da te e usate solo per l’accesso al cloud BYD;</li>
+            <li><strong>Dati veicolo dal cloud BYD</strong>: VIN, targa, modello, marca, alias, chilometraggio, autonomia EV indicata, stato online/offline, percentuale batteria e benzina;</li>
+            <li><strong>Data/ora dell’ultima sincronizzazione</strong> con il cloud BYD.</li>
+        </ul>
+        <p>
+            <strong>Lo sviluppatore non gestisce server propri</strong> per questi dati: le richieste partono dal tuo
+            dispositivo e vanno direttamente ai server BYD. Lo sviluppatore <strong>non riceve</strong> né archivia
+            centralmente le tue credenziali BYD o i dati del veicolo su un proprio backend.
+        </p>
+        <p>
+            Puoi <strong>scollegare</strong> l’account BYD in qualsiasi momento dall’app (pulsante «Scollega»):
+            le credenziali e i dati veicolo memorizzati localmente per questa funzione vengono rimossi dal dispositivo.
+        </p>
+    </div>
+
+    <h2>4. Dove restano i dati</h2>
     <p>
         Profilo veicolo, preferenze, cronologia viaggi e stato dell’app sono memorizzati
         <strong>localmente</strong> sul tuo iPhone o iPad (archiviazione del sistema, es. UserDefaults).
     </p>
     <p>
-        <strong>Non gestiamo un server cloud</strong> che archivi centralmente i tuoi viaggi, la posizione o gli indirizzi.
-        La posizione durante il Copilota viene elaborata sul dispositivo per calcolare l’avanzamento lungo il percorso
-        e non viene trasmessa a server dello sviluppatore.
+        Se colleghi l’account BYD, email, password e informazioni veicolo sincronizzate sono salvate
+        <strong>sul dispositivo</strong> in modo protetto (es. <strong>Keychain</strong> di iOS) e non sono
+        accessibili allo sviluppatore al di fuori del tuo telefono.
+    </p>
+    <p>
+        <strong>Non gestiamo un server cloud</strong> che archivi centralmente i tuoi viaggi, la posizione, gli indirizzi
+        o le credenziali BYD. La posizione durante il Copilota viene elaborata sul dispositivo per calcolare
+        l’avanzamento lungo il percorso e non viene trasmessa a server dello sviluppatore.
     </p>
     <p>
         Eventuali backup dipendono dal sistema operativo o da servizi che configuri tu (es. backup
         <strong>iCloud</strong>), fuori dal controllo diretto di questa app.
     </p>
 
-    <h2>4. Apple MapKit e navigatori esterni</h2>
+    <h2>5. Apple MapKit e navigatori esterni</h2>
     <div class="highlight">
         <p>
             Per autocompletamento indirizzi, calcolo percorsi e ricerca colonnine, DMi Copilot usa
@@ -93,7 +130,7 @@
         </p>
     </div>
 
-    <h2>5. Permessi del dispositivo</h2>
+    <h2>6. Permessi del dispositivo</h2>
     <p>Alcune funzioni richiedono autorizzazioni tramite iOS:</p>
     <table>
         <thead>
@@ -126,15 +163,19 @@
         alcune funzioni (in particolare il Copilota) potrebbero smettere di funzionare.
     </p>
 
-    <h2>6. Dati che non raccogliamo</h2>
+    <h2>7. Dati che non raccogliamo</h2>
     <p>
-        Nella versione attuale <strong>non raccogliamo</strong> intenzionalmente nome, email o numero di telefono
-        (salvo che tu non ci contatti volontariamente), <strong>non mostriamo annunci pubblicitari</strong> di terze parti
-        e <strong>non usiamo strumenti di analytics</strong> per profilare gli utenti. Se ciò cambiasse,
-        aggiorneremo questa informativa prima dell’attivazione.
+        <strong>Non raccogliamo</strong> intenzionalmente nome o numero di telefono (salvo che tu non ci contatti
+        volontariamente per assistenza), <strong>non mostriamo annunci pubblicitari</strong> di terze parti
+        e <strong>non usiamo strumenti di analytics</strong> per profilare gli utenti.
+    </p>
+    <p>
+        Se colleghi l’account BYD, l’<strong>email</strong> che inserisci è quella del tuo account BYD esistente:
+        resta sul dispositivo e viene inviata solo ai server BYD per l’autenticazione, non a server dello sviluppatore.
+        Se ciò cambiasse in futuro, aggiorneremo questa informativa prima dell’attivazione.
     </p>
 
-    <h2>7. Minori</h2>
+    <h2>8. Minori</h2>
     <p>
         DMi Copilot <strong>non è destinata a bambini sotto i 13 anni</strong> e non raccogliamo consapevolmente
         dati personali di minori di 13 anni. Se ritieni che un minore di 13 anni ci abbia fornito dati personali,
@@ -142,19 +183,22 @@
         nei limiti del caso.
     </p>
 
-    <h2>8. Sicurezza</h2>
+    <h2>9. Sicurezza</h2>
     <p>
-        Adottiamo misure ragionevoli per proteggere i dati sul dispositivo. Nessun sistema è completamente sicuro;
-        ti invitiamo a proteggere il tuo iPhone con codice, Face ID o Touch ID.
+        Adottiamo misure ragionevoli per proteggere i dati sul dispositivo, incluso l’uso del Keychain per le
+        credenziali BYD. Nessun sistema è completamente sicuro; ti invitiamo a proteggere il tuo iPhone con
+        codice, Face ID o Touch ID e a non condividere la password del tuo account BYD.
     </p>
 
-    <h2>9. Trasferimenti extra-UE</h2>
+    <h2>10. Trasferimenti extra-UE</h2>
     <p>
-        I dati restano sul dispositivo. Eventuali richieste verso Apple, Google o Waze possono comportare
+        La maggior parte dei dati resta sul dispositivo. Eventuali richieste verso <strong>Apple</strong>,
+        <strong>Google</strong>, <strong>Waze</strong> o i <strong>server BYD</strong> possono comportare
         trattamenti da parte di tali soggetti secondo le loro policy (anche fuori dall’Unione Europea).
+        Per il collegamento BYD, i dati di autenticazione e veicolo sono trasmessi ai server del servizio BYD.
     </p>
 
-    <h2>10. Diritti (GDPR e normativa applicabile)</h2>
+    <h2>11. Diritti (GDPR e normativa applicabile)</h2>
     <p>
         Se sei nell’UE/SEE, puoi esercitare i diritti previsti dal Regolamento (UE) 2016/679 (accesso, rettifica,
         cancellazione, limitazione, portabilità, opposizione), nei limiti di legge. Poiché molti dati restano
@@ -162,21 +206,26 @@
     </p>
     <ul>
         <li>modificare profilo veicolo e preferenze nell’app;</li>
+        <li>scollegare l’account BYD dall’app per rimuovere credenziali e dati veicolo sincronizzati localmente;</li>
         <li>rimuovere i dati dell’app da Impostazioni → Generali → Spazio iPhone o disinstallare DMi Copilot;</li>
         <li>scrivere a <a href="mailto:rmlabs.dev@gmail.com">rmlabs.dev@gmail.com</a> per altre richieste.</li>
     </ul>
+    <p>
+        Per i dati trattati direttamente da <strong>BYD</strong> in qualità di titolare autonomo del servizio cloud,
+        puoi rivolgerti anche a BYD secondo la sua informativa privacy.
+    </p>
     <p>
         Puoi proporre reclamo al Garante privacy italiano:
         <a href="https://www.garanteprivacy.it" target="_blank" rel="noopener noreferrer">www.garanteprivacy.it</a>.
     </p>
 
-    <h2>11. Licenza e riferimenti</h2>
+    <h2>12. Licenza e riferimenti</h2>
     <p>
         L’uso dell’app è soggetto anche al contratto di licenza standard Apple (EULA):
         <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener noreferrer">https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</a>.
     </p>
 
-    <h2>12. Modifiche</h2>
+    <h2>13. Modifiche</h2>
     <p>
         Possiamo aggiornare questa informativa. La data in calce indica l’ultima revisione.
         Ti invitiamo a consultarla periodicamente; per modifiche rilevanti aggiorneremo il testo
@@ -184,7 +233,7 @@
     </p>
 
     <div class="footer">
-        <p>Ultimo aggiornamento: 9 giugno 2026</p>
+        <p>Ultimo aggiornamento: 16 giugno 2026</p>
         <p><strong>DMi Copilot</strong> · Sviluppatore: Roberto Maricchiolo · Distribuzione: Apple App Store</p>
         <p>Contatti privacy: <a href="mailto:rmlabs.dev@gmail.com">rmlabs.dev@gmail.com</a></p>
     </div>
