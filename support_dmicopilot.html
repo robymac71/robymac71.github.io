@@ -22,7 +22,8 @@
 
     <p>
         Benvenuto nella pagina di assistenza di <strong>DMi Copilot</strong>, l’app per pianificare viaggi
-        e ricevere accompagnamento alla guida (EV, HEV, SAVE) con la tua <strong>BYD Atto 2 DM-i</strong>.
+        e ricevere accompagnamento alla guida (EV, HEV, SAVE) con la tua <strong>BYD DM-i</strong>
+        (Atto 2, Seal U, Seal 6, Seal 6 Touring).
     </p>
     <p>
         <em>DMi Copilot è un’app indipendente, non affiliata né approvata da BYD.</em>
@@ -37,46 +38,102 @@
 
     <h2>Domande frequenti (FAQ)</h2>
 
-    <h3>1. L’app è ufficiale BYD?</h3>
+    <h3>L’app è ufficiale BYD?</h3>
     <p>
         No. DMi Copilot è sviluppata in modo indipendente da appassionati DM-i. Le stime su batteria,
         carburante e settaggi sono indicative: verifica sempre il cruscotto del veicolo.
     </p>
 
-    <h3>2. Come funziona il Copilota in navigazione?</h3>
+    <h3>Dove finiscono le credenziali BYD che inserisco?</h3>
     <p>
-        Pianifica un viaggio, poi avvia la navigazione con <strong>Google Maps</strong> o <strong>Waze</strong>.
-        DMi Copilot resta attivo in background e ti avvisa sui cambi tratto (notifiche, voce e Live Activity).
-        Non sostituisce il navigatore: lavora insieme a Mappe o Waze.
+        Email e password restano <strong>solo sul tuo dispositivo</strong>, in archivio protetto
+        (Keychain su iPhone, memoria cifrata su Android). Non passano da server DMi Copilot: non abbiamo
+        un database utenti. Servono solo per autenticarti ai <strong>server cloud BYD</strong> quando premi
+        «Aggiorna da BYD». Puoi rimuoverle in qualsiasi momento con «Scollega» nella card Account BYD.
+        Maggiori dettagli nell’<a href="https://robymac71.github.io/privacy_dmicopilot_ios.html">informativa privacy</a>.
     </p>
 
-    <h3>3. Perché l’app chiede la posizione «Sempre»?</h3>
+    <h3>Perché, dopo il login in DMi Copilot, l’app BYD ufficiale chiede di riaccedere?</h3>
+    <p>
+        DMi Copilot e l’app BYD ufficiale usano lo <strong>stesso account cloud</strong>. Quando DMi Copilot
+        effettua l’accesso, i server BYD possono chiudere la sessione già aperta sull’app ufficiale —
+        comportamento tipico con sessione singola. Non è un bug di DMi Copilot: di solito basta riaprire
+        l’app BYD e accedere di nuovo. Se preferisci, collega l’account in DMi Copilot solo quando ti serve
+        aggiornare batteria e benzina, poi scollega.
+    </p>
+
+    <h3>Devo per forza collegare l’account BYD?</h3>
+    <p>
+        No. L’app è gratuita e funziona senza login BYD. Il collegamento è opzionale e serve solo per leggere
+        batteria e benzina dal cloud e proporti il modello corretto. Puoi sempre inserire la batteria manualmente
+        nel tab Viaggio.
+    </p>
+
+    <h3>Come funziona il Copilota in navigazione?</h3>
+    <p>
+        Pianifica un viaggio, poi avvia la navigazione con <strong>Mappe</strong>, <strong>Google Maps</strong>
+        o <strong>Waze</strong> (oppure la mappa integrata su Android). DMi Copilot resta attivo e ti avvisa
+        sui cambi tratto (notifiche, voce e Live Activity su iPhone). Non sostituisce il navigatore:
+        lavora insieme a Mappe, Google Maps o Waze.
+    </p>
+
+    <h3>Perché DMi Copilot non compare tra Mappe, Google Maps o Waze?</h3>
+    <p>
+        DMi Copilot <strong>non è un navigatore</strong>: pianifica il viaggio e ti accompagna sui settaggi
+        EV/HEV/SAVE. I navigatori guidano sul percorso, quindi non possono essere sostituiti da DMi Copilot
+        nel menu «Apri con». Per importare una destinazione usa Condividi verso DMi Copilot (WhatsApp, ecc.)
+        o incolla l’indirizzo nell’app.
+    </p>
+
+    <h3>Perché l’app chiede la posizione «Sempre» / in background?</h3>
     <p>
         Per seguire l’avanzamento lungo il percorso mentre usi un altro navigatore e inviarti avvisi
         sui cambi EV/HEV/SAVE. Puoi usare solo «Durante l’uso dell’app», ma il Copilota in background
         potrebbe non funzionare correttamente.
     </p>
 
-    <h3>4. Come funziona andata e ritorno?</h3>
+    <h3>Come funziona andata e ritorno?</h3>
     <p>
-        Scegli <strong>Andata e ritorno</strong> in pianificazione. A destinazione l’app entra in pausa;
-        aggiorna la batteria reale e premi <strong>Avvia rientro</strong> per riallineare il copilota sul percorso di ritorno.
+        Scegli <strong>Andata e ritorno</strong> in pianificazione e la strategia di rientro (conserva batteria,
+        ricarica a destinazione o lungo il percorso). A destinazione l’app entra in pausa; aggiorna la batteria
+        reale e premi <strong>Avvia rientro</strong> per riallineare il Copilota sul percorso di ritorno.
     </p>
 
-    <h3>5. I miei dati sono al sicuro?</h3>
+    <h3>Le stime su batteria e benzina sono affidabili?</h3>
     <p>
-        Sì. Viaggi, preferenze e profilo veicolo restano sul tuo dispositivo. Non gestiamo un account
-        cloud né un server che archivia i tuoi tragitti. Leggi l’informativa completa:
-        <a href="https://robymac71.github.io/privacy_dmicopilot_ios.html">Privacy Policy iOS</a>.
+        Sono stime basate su dati di omologazione e, se confermi i viaggi con «Nuovo», sulla tua guida reale
+        (calibrazione). Traffico, meteo, stile di guida e carico possono cambiare molto i risultati:
+        usa sempre il cruscotto come riferimento.
+    </p>
+
+    <h3>Da dove viene la «Ricarica AC max» nel profilo?</h3>
+    <p>
+        È la potenza massima del caricatore di bordo del modello selezionato (es. 11 kW per Seal U in Europa,
+        6,6 kW per Atto 2 Boost). I tempi di ricarica in pianificazione si basano su quel valore: con una
+        wallbox da 7,4 kW la ricarica reale può essere più lenta del massimo teorico.
+    </p>
+
+    <h3>Le donazioni sono obbligatorie?</h3>
+    <p>
+        No. I contributi nella Home sono del tutto opzionali, non sbloccano funzioni e servono solo a
+        sostenere lo sviluppo indipendente dell’app.
+    </p>
+
+    <h3>I miei dati sono al sicuro?</h3>
+    <p>
+        Viaggi, preferenze e profilo veicolo restano sul tuo dispositivo. Non gestiamo un account
+        cloud né un server che archivia i tuoi tragitti. Leggi le informative complete:
+        <a href="https://robymac71.github.io/privacy_dmicopilot_ios.html">Privacy iOS</a> ·
+        <a href="https://robymac71.github.io/privacy_dmicopilot_android.html">Privacy Android</a>.
     </p>
 
     <h2>Segnala un problema</h2>
     <p>Per aiutarci a risolvere più in fretta, includi nell’email:</p>
     <ul>
-        <li>Modello iPhone e versione iOS.</li>
+        <li>Modello telefono e versione sistema (iOS o Android).</li>
         <li>Versione dell’app DMi Copilot.</li>
-        <li>Variante veicolo (Active o Boost).</li>
-        <li>Cosa stavi facendo (pianificazione, Copilota, rientro, ecc.).</li>
+        <li>Modello e versione veicolo (es. Seal U Design, Atto 2 Boost).</li>
+        <li>Cosa stavi facendo (pianificazione, Copilota, account BYD, ecc.).</li>
         <li>Se possibile, uno screenshot.</li>
     </ul>
 
@@ -84,7 +141,8 @@
         <p>Sviluppatore: Roberto Maricchiolo</p>
         <p>
             Privacy:
-            <a href="https://robymac71.github.io/privacy_dmicopilot_ios.html">privacy_dmicopilot_ios.html</a>
+            <a href="https://robymac71.github.io/privacy_dmicopilot_ios.html">iOS</a> ·
+            <a href="https://robymac71.github.io/privacy_dmicopilot_android.html">Android</a>
         </p>
     </div>
 </body>
