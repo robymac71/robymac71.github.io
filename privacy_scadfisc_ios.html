@@ -25,11 +25,15 @@
     <h1>Informativa sulla privacy · ScadFisc</h1>
 
     <p>
-        <strong>ScadFisc</strong> è un'applicazione per <strong>gestire scadenze fiscali</strong>:
-        F24, CBILL, bollettini e altri pagamenti verso l'erario. Permette di importare documenti PDF
-        tramite fotocamera o file, archiviare le scadenze sul dispositivo e ricevere promemoria.
-        L'app è destinata a <strong>utenti di almeno 13 anni</strong>. Se hai meno di 13 anni,
-        non utilizzare ScadFisc.
+        <strong>ScadFisc</strong> è un'applicazione per <strong>gestire le scadenze fiscali</strong>:
+        F24, avvisi CBILL/PagoPA, tasse e tributi. Permette di importare documenti PDF o scansionarli
+        con la fotocamera, organizzare le scadenze per sezione, impostare promemoria e tenere traccia
+        dei pagamenti effettuati.
+    </p>
+    <p>
+        ScadFisc è un progetto <strong>indipendente</strong> sviluppato da Roberto Maricchiolo.
+        Non è affiliata, sponsorizzata né approvata dall'Agenzia delle Entrate o da qualsiasi ente fiscale.
+        Le informazioni estratte dai documenti hanno valore indicativo e non sostituiscono i documenti originali.
     </p>
 
     <h2>1. Titolare del trattamento</h2>
@@ -38,68 +42,42 @@
         <strong>Contatti privacy:</strong> <a href="mailto:rmlabs.dev@gmail.com">rmlabs.dev@gmail.com</a>
     </p>
     <p>
-        ScadFisc <strong>non richiede un account</strong> per funzionare. Tutti i dati fiscali restano
-        <strong>sul dispositivo</strong>. Il download e gli aggiornamenti dell'app sono gestiti da
+        ScadFisc <strong>non richiede un account</strong> per funzionare. Tutti i dati inseriti o importati
+        restano sul tuo dispositivo. L'eventuale download o aggiornamento dell'app è gestito da
         <strong>Apple (App Store)</strong> tramite l'account Apple collegato al dispositivo.
     </p>
 
     <h2>2. Dati e contenuti trattati</h2>
     <p>In base a come usi l'app, possono essere coinvolti:</p>
     <ul>
-        <li><strong>Scadenze fiscali</strong>: titolo, data di scadenza, importo, sezione (F24, CBILL, ecc.), codice tributo, codice atto, codice CBILL, codice modulo di pagamento, creditore, note, stato pagato/non pagato;</li>
-        <li><strong>Documenti importati</strong>: testo estratto da PDF F24 e CBILL tramite lettura del layer testuale o riconoscimento ottico (OCR) eseguito <strong>localmente sul dispositivo</strong>;</li>
-        <li><strong>Immagini/scansioni</strong>: fotografie o scansioni di documenti fiscali acquisite tramite fotocamera, elaborate localmente per estrarre i dati e non conservate separatamente dall'app;</li>
-        <li><strong>Preferenze</strong>: impostazioni di notifica, filtri, sezioni preferite;</li>
-        <li><strong>Cronologia acquisti</strong>: stato dell'abbonamento o acquisto lifetime gestito tramite Apple (StoreKit/In-App Purchase).</li>
+        <li><strong>Scadenze fiscali</strong>: titolo, data di scadenza, importo, sezione (es. IRPEF, IVA, IMU), codice tributo, codice atto, codice CBILL, note e stato di pagamento;</li>
+        <li><strong>Documenti PDF</strong>: file F24 e CBILL/PagoPA che importi dall'app File o da altra app; il testo viene estratto localmente per il riconoscimento dei dati fiscali e il file originale non viene trasmesso a server dello sviluppatore;</li>
+        <li><strong>Immagini scansionate</strong>: foto o scansioni di documenti acquisite tramite fotocamera; il riconoscimento ottico del testo (OCR) avviene localmente tramite <strong>VisionKit</strong> di Apple; le immagini non vengono trasmesse a server dello sviluppatore;</li>
+        <li><strong>Preferenze</strong>: impostazioni di notifica, filtri attivi, tema dell'interfaccia;</li>
+        <li><strong>Stato abbonamento</strong>: informazioni sull'acquisto in-app gestite da Apple tramite StoreKit.</li>
     </ul>
     <p>
-        <strong>Finalità:</strong> archiviare e organizzare scadenze fiscali, importare dati da documenti PDF,
-        inviare promemoria, esportare/importare scadenze in formato calendario (ICS), copiare dati per
-        il pagamento tramite app bancarie. <strong>Non vendiamo</strong> i dati degli utenti a terzi
-        per pubblicità comportamentale.
+        <strong>Finalità:</strong> archiviare e visualizzare le scadenze fiscali, estrarre dati da documenti
+        PDF e scansioni, inviare promemoria prima delle scadenze, esportare eventi nel calendario.
+        <strong>Non vendiamo</strong> i dati degli utenti a terzi per pubblicità comportamentale.
     </p>
 
-    <h2>3. OCR e importazione documenti</h2>
-    <div class="highlight">
-        <p>
-            Quando importi un PDF F24 o CBILL, l'app estrae il testo dal documento e, se necessario,
-            applica il riconoscimento ottico dei caratteri (<strong>OCR</strong>) tramite le API di sistema
-            Apple (<strong>VisionKit</strong>), eseguito <strong>interamente sul tuo dispositivo</strong>.
-        </p>
-        <p>
-            Le immagini e il testo estratti vengono usati <strong>solo per popolare i campi della scadenza</strong>
-            (data, importo, codice tributo, ecc.) e non vengono inviati a server dello sviluppatore né
-            conservati come file separati nell'app. Una volta completata l'importazione, l'immagine
-            originale non è più accessibile da ScadFisc.
-        </p>
-    </div>
-
-    <h2>4. Dove restano i dati</h2>
+    <h2>3. Dove restano i dati</h2>
     <p>
-        Scadenze, preferenze e impostazioni sono memorizzate <strong>localmente</strong> sul tuo iPhone
-        o iPad (archiviazione del sistema). <strong>Non gestiamo un server cloud</strong> che archivi
-        centralmente i tuoi dati fiscali.
+        Scadenze, preferenze e tutti i dati dell'app sono memorizzati <strong>localmente</strong> sul tuo
+        iPhone o iPad (archiviazione del sistema). Lo sviluppatore <strong>non gestisce server cloud</strong>
+        che archivino i tuoi dati fiscali.
     </p>
     <p>
-        Eventuali backup dipendono dal sistema operativo o da servizi che configuri tu
-        (es. backup <strong>iCloud</strong>), fuori dal controllo diretto di questa app.
+        I PDF importati e le immagini scansionate vengono elaborati <strong>interamente sul dispositivo</strong>:
+        il testo estratto viene usato solo per popolare i campi della scadenza e non viene inviato a server esterni.
+    </p>
+    <p>
+        Eventuali backup dipendono dal sistema operativo o da servizi che configuri tu (es. backup
+        <strong>iCloud</strong>), fuori dal controllo diretto di questa app.
     </p>
 
-    <h2>5. Esportazione ICS e app bancarie</h2>
-    <div class="highlight">
-        <p>
-            ScadFisc può generare un file <strong>ICS</strong> (calendario) con le tue scadenze e aprirlo
-            con l'app Calendario o condividerlo tramite il foglio di condivisione iOS. Il file viene
-            creato <strong>sul dispositivo</strong> e condiviso solo se scegli esplicitamente di farlo.
-        </p>
-        <p>
-            La funzione <strong>«Copia per banca»</strong> copia negli appunti del dispositivo i dati
-            di pagamento (importo, codice tributo, ecc.) per incollarli nella tua app bancaria.
-            Lo sviluppatore <strong>non riceve</strong> i dati copiati.
-        </p>
-    </div>
-
-    <h2>6. Permessi del dispositivo</h2>
+    <h2>4. Permessi del dispositivo</h2>
     <p>Alcune funzioni richiedono autorizzazioni tramite iOS:</p>
     <table>
         <thead>
@@ -111,19 +89,15 @@
         <tbody>
             <tr>
                 <td><strong>Fotocamera</strong></td>
-                <td>Scansione di documenti fiscali per l'importazione tramite OCR.</td>
+                <td>Scansione di documenti fiscali cartacei tramite VisionKit per estrarne i dati. Le immagini non vengono trasmesse a server esterni.</td>
             </tr>
             <tr>
                 <td><strong>Notifiche</strong></td>
-                <td>Promemoria per le scadenze fiscali in avvicinamento.</td>
-            </tr>
-            <tr>
-                <td><strong>Accesso ai file</strong></td>
-                <td>Importazione di PDF F24 e CBILL da File o da altre app.</td>
+                <td>Promemoria sulle scadenze fiscali imminenti (es. avviso 3 giorni prima della data di scadenza).</td>
             </tr>
             <tr>
                 <td><strong>Calendario</strong> (opzionale)</td>
-                <td>Aggiunta diretta delle scadenze al calendario di sistema, se scegli di usare questa funzione.</td>
+                <td>Esportazione delle scadenze come eventi nel calendario di sistema tramite file ICS.</td>
             </tr>
         </tbody>
     </table>
@@ -132,45 +106,55 @@
         alcune funzioni (scansione, notifiche) potrebbero smettere di funzionare.
     </p>
 
-    <h2>7. Dati che non raccogliamo</h2>
+    <h2>5. Dati che non raccogliamo</h2>
     <p>
-        <strong>Non raccogliamo</strong> nome, codice fiscale o numero di telefono (salvo che tu non ci
-        contatti volontariamente per assistenza). <strong>Non mostriamo annunci pubblicitari</strong> di
-        terze parti e <strong>non usiamo strumenti di analytics</strong> per profilare gli utenti.
-        I dati fiscali che inserisci o importi restano esclusivamente sul tuo dispositivo.
+        <strong>Non raccogliamo</strong> nome, numero di telefono, codice fiscale o partita IVA in forma
+        centralizzata. <strong>Non mostriamo annunci pubblicitari</strong> di terze parti e
+        <strong>non usiamo strumenti di analytics</strong> per profilare gli utenti.
+    </p>
+    <p>
+        I dati fiscali che inserisci o importi (importi, codici tributo, codici atto, ecc.) restano
+        esclusivamente sul tuo dispositivo e non sono accessibili allo sviluppatore.
     </p>
 
-    <h2>8. Acquisti in-app (StoreKit)</h2>
-    <p>
-        Se acquisti un abbonamento o una licenza lifetime, la transazione è gestita interamente da
-        <strong>Apple (StoreKit / In-App Purchase)</strong>. Lo sviluppatore riceve da Apple solo
-        la conferma dello stato di acquisto (attivo/scaduto), senza dati di pagamento o carta di credito.
-        Per i dettagli, consulta l'<a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener noreferrer">informativa privacy di Apple</a>.
-    </p>
+    <h2>6. Acquisti in-app (StoreKit)</h2>
+    <div class="highlight">
+        <p>
+            ScadFisc offre funzioni aggiuntive tramite <strong>abbonamento in-app</strong> gestito da
+            <strong>Apple StoreKit</strong>. Lo sviluppatore non riceve i dati della tua carta di credito
+            né le informazioni di pagamento: la transazione è interamente gestita da Apple.
+            Lo sviluppatore riceve solo la conferma dello stato dell'abbonamento (attivo/scaduto)
+            per sbloccare le funzioni premium.
+        </p>
+    </div>
 
-    <h2>9. Minori</h2>
+    <h2>7. Apple VisionKit e PDFKit</h2>
+    <div class="highlight">
+        <p>
+            Per il riconoscimento del testo (OCR) su immagini e scansioni, ScadFisc usa
+            <strong>VisionKit</strong> di Apple. Per l'estrazione del testo dai file PDF usa
+            <strong>PDFKit</strong> di Apple. Entrambe le librerie elaborano i dati
+            <strong>interamente sul dispositivo</strong>, senza connessione a server esterni.
+            L'elaborazione è soggetta alle condizioni di utilizzo di Apple.
+        </p>
+    </div>
+
+    <h2>8. Minori</h2>
     <p>
-        ScadFisc <strong>non è destinata a bambini sotto i 13 anni</strong> e non raccogliamo
-        consapevolmente dati personali di minori di 13 anni. Se ritieni che un minore di 13 anni
-        abbia utilizzato l'app, contattaci a
+        ScadFisc è classificata <strong>4+</strong> sull'App Store e non è specificamente destinata
+        a minori. Non raccogliamo consapevolmente dati personali di minori di 13 anni.
+        Se ritieni che un minore ci abbia fornito dati, contattaci a
         <a href="mailto:rmlabs.dev@gmail.com">rmlabs.dev@gmail.com</a>.
     </p>
 
-    <h2>10. Sicurezza</h2>
+    <h2>9. Sicurezza</h2>
     <p>
-        I dati sono memorizzati nelle aree protette del sistema iOS. Ti invitiamo a proteggere
-        il tuo iPhone con codice, Face ID o Touch ID per impedire accessi non autorizzati
-        ai tuoi dati fiscali.
+        I dati dell'app sono memorizzati nell'area protetta del dispositivo iOS.
+        Ti invitiamo a proteggere il tuo iPhone con codice, Face ID o Touch ID per
+        mantenere riservati i tuoi dati fiscali.
     </p>
 
-    <h2>11. Trasferimenti extra-UE</h2>
-    <p>
-        La maggior parte dei dati resta sul dispositivo. Eventuali richieste verso <strong>Apple</strong>
-        (App Store, StoreKit, VisionKit) possono comportare trattamenti da parte di Apple secondo
-        la sua informativa privacy, anche fuori dall'Unione Europea.
-    </p>
-
-    <h2>12. Diritti (GDPR e normativa applicabile)</h2>
+    <h2>10. Diritti (GDPR e normativa applicabile)</h2>
     <p>
         Se sei nell'UE/SEE, puoi esercitare i diritti previsti dal Regolamento (UE) 2016/679
         (accesso, rettifica, cancellazione, limitazione, portabilità, opposizione), nei limiti di legge.
@@ -178,7 +162,7 @@
     </p>
     <ul>
         <li>modificare o eliminare singole scadenze direttamente nell'app;</li>
-        <li>eliminare tutti i dati disinstallando ScadFisc dal dispositivo;</li>
+        <li>eliminare tutti i dati rimuovendo l'app da <strong>Impostazioni → Generali → Spazio iPhone</strong>;</li>
         <li>scrivere a <a href="mailto:rmlabs.dev@gmail.com">rmlabs.dev@gmail.com</a> per altre richieste.</li>
     </ul>
     <p>
@@ -186,13 +170,13 @@
         <a href="https://www.garanteprivacy.it" target="_blank" rel="noopener noreferrer">www.garanteprivacy.it</a>.
     </p>
 
-    <h2>13. Licenza</h2>
+    <h2>11. Licenza</h2>
     <p>
         L'uso dell'app è soggetto anche al contratto di licenza standard Apple (EULA):
         <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener noreferrer">https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</a>.
     </p>
 
-    <h2>14. Modifiche</h2>
+    <h2>12. Modifiche</h2>
     <p>
         Possiamo aggiornare questa informativa. La data in calce indica l'ultima revisione.
         Ti invitiamo a consultarla periodicamente; per modifiche rilevanti aggiorneremo il testo
